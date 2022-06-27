@@ -1,2 +1,3 @@
-# Projeto-de-PW-site-PHP
-cadastro, login/logout, banco de dados
+# projetopw
+Projeto criado pelas Alunas Andressa Santos e Elissandra, da turma de Desenvolvimento 
+de sistemas.

@@ -1,0 +1,25 @@
+CREATE DATABASE modular;
+
+CREATE TABLE tb_FILME
+(
+    id_F int PRIMARY KEY AUTO_INCREMENT,
+    NOME_F VARCHAR(100) NOT NULL,
+    ANO_F INT NOT NULL,
+    CATEGORIA_F VARCHAR (100) NOT NULL,
+    DIRETOR_F VARCHAR(100) NOT NULL,
+    DURACAO_F VARCHAR(100) NOT NULL
+
+);
+
+INSERT INTO tb_FILME VALUES ('','Ultimato Bourn', '2007' , 'Ação','Paul Greengrass', '1:55');
+INSERT INTO tb_FILME VALUES ('','Constantine', '2005' , 'Terro', 'Francis Lawrence', '2:01');
+INSERT INTO tb_FILME VALUES ('','Os Irmãos Grimm', '2005', 'Fantasia', 'Terry Gilliam','1:58');
+INSERT INTO tb_FILME VALUES ('','Os Doze Macacos', '1995' , 'Ficção Cientifica', 'Terry Gilliam', '2:09');
+INSERT INTO tb_FILME VALUES ('','As Torres Gêmeas', '2006' , 'Drama' , 'Oliver Stone', '2:09');
+INSERT INTO tb_FILME VALUES ('','Platoon', '1987', 'Drama', 'Oliver Stone', '2:00');
+INSERT INTO tb_FILME VALUES ('','O Advogado do Diabo', '1998', 'Fantasia', 'Taylor Hackford','2:20');
+INSERT INTO tb_FILME VALUES ('','Beowulf', '2007', 'Fantasia', 'Robert Zemeckis', '1:55');
+
+// criar tabela
+
+nome filme, ano, categoria, diretor, duração.
